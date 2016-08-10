@@ -1,0 +1,5 @@
+#lays out the cells for this function
+def addressfun(name, address, street, city, state):
+	print("Your address is {} {} {} {} {}".format(name, address, street, city, state))
+#Example of function being used
+addressfun("amy","2" , "state st", "tolly", "tn")
