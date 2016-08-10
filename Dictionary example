@@ -1,0 +1,8 @@
+elephant_supplies = ["easel", "peanut", "paint","giant saddle"]
+
+#dictionary
+supplies = {"elephant": "easel", "human":"peanuts", "flamingos":}
+supplies["monkey"]= "paint"
+
+supplies = ["flamingos"] = ["mirror", "shrimp"] 
+	print flamingos
