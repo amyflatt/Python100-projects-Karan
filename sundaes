@@ -1,0 +1,24 @@
+#Lets make a Sundae 
+class Sundae:
+	def __init__(self, toppings):
+		self.toppings = toppings
+		self.chips_allowed = False
+
+	@property
+	def chips_allowed(self):
+		return self.chips_allowed
+
+	@chips_allowed.setter
+	def chips_allowed(self, value):
+		if value:
+			password = raw_input("Enter the password:")
+			if password == "please":
+				self.chips_allowed = value
+			else:
+				raise ValueError("No Chips for YOU!")
+
+Sundae = Sundae(['ice_cream', 'hot_fudge', 'cherry'])
+print(Sundae.chips_allowed)
+Sundae.chips_allowed = True
+print(Sundae.chips_allowed)
+
