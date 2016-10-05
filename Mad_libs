@@ -1,0 +1,5 @@
+import textwrap
+Mad_libs = ["example", "Shelley", "bookcase"]
+print(len(Mad_libs))
+Story = """This is an {} of a Mad Libs program. {} can fill answers into a list at the top of the {}. """ .format(*Mad_libs)
+print(textwrap.fill(Story,30))
