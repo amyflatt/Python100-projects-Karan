@@ -1,0 +1,8 @@
+# defines and executes the function multiply
+def multiply(x,y):
+	return x * y
+
+a = 2
+b = 13
+operation = multiply
+print(operation(a,b))
